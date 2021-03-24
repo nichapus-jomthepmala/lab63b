@@ -29,6 +29,8 @@
   • ไปที่ตัวอย่างที่ 3
     
     • พิมพ์ cd 03_Output-Port
+  ![image](https://user-images.githubusercontent.com/80880074/112324025-e9549a00-8ce4-11eb-9b46-1a310988aca6.jpeg)
+
 4. ดู source code program 
   • พิมพ์ vi src/main.cpp
   
