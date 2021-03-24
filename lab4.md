@@ -42,28 +42,39 @@ https://youtu.be/nFqoZT26U5k
   • ในขณะที่ program กำลังรันข้อมูล เพื่อให้ microcontroller รันโปรแกรมใหม่เข้าไป กดปุ่มสีดำเพื่อให้เกิดการโหลด และกดปุ่มสีแดงเพื่อให้เกิดการรีเซ็ท
   
   • อัพโหลดเข้าตัว microcontroller เสร็จสิ้น โปรแกรมจะทำงานโดยการตรวจสอบที่ port0 ว่ามี input มาหรือไม่ ถ้า input เป็น1 ไฟจะติดที่ port2 และ ถ้า input เป็น0 ไฟจะดับ
-  
+  ![image](https://user-images.githubusercontent.com/80880074/112324692-a1824280-8ce5-11eb-88a0-150a2d6b123c.jpeg)
+
   • พิมพ์ pio device monitor ค่าที่อ่านได้เป็น 1 ตลอดดังภาพ
+  ![image](https://user-images.githubusercontent.com/80880074/112325002-e60dde00-8ce5-11eb-8ef8-25831803a3c3.jpeg)
   
   • สายไฟเส้นสีขาว คือ port 0 ถ้าเอาสายไฟเส้นนี้ไปจิ้มจะมีค่าเป็น 0 Volt นำสายไฟเส้นสีขาว จิ้มกับช่องที่มีสายสีดำเสียบอยู่ output อ่านค่าได้เป็น 0 ดังภาพ
+  ![image](https://user-images.githubusercontent.com/80880074/112325145-050c7000-8ce6-11eb-8310-d953c92dd2ed.jpeg)
   
   • ปล่อยสายไฟเส้นสีขาวออกจาก ช่องที่มีสายสีดำ output เปลี่ยนกลับเป็น 1
   
   • นำสายไฟสีขาวไปจิ้มที่เส้นสีแดง หรือ HIGH(on) out put อ่านค่าได้เป็น 1 เช่นเดียวกัน
+  ![image](https://user-images.githubusercontent.com/80880074/112325286-1eadb780-8ce6-11eb-83c6-32106c2db76c.jpeg)
   
   • microcontroller ESP-01 ตามปกติเราจะกดที่ปุ่มสีดำที่ต้องกดตอนโปรแกรมที่ผ่านมา ซึ่งในการทดลองนี้ปุ่มสีดำได้ต่ออยู่กับ port 0
   
   • เมื่อลองกดที่ปุ่มสีดำ ค่าที่ได้ออกมาจะมีค่าเช่นเดียวกับการกดport 0 ส่งผลให้ไฟติดดังภาพ
+  ![image](https://user-images.githubusercontent.com/80880074/112325373-371dd200-8ce6-11eb-9dee-fe130ae20c52.jpeg)
   
   • เมื่อปล่อยมือจากปุ่มสีดำ ไฟจะดับ และค่าที่อ่านได้เป็น 1 ดังภาพ
 5. นำ CPU มาต่อกับ sensorแสง (sensorแสงนั้นต่ออยู่กับตัวต้านทาน)
   • ขาข้างแรก ต่อกับไฟเลี้ยงของCPU เส้นสีแดง(ขนาด 3 Volt)
   
   • ขาถัดมา ต่อกับ resistor และเข้าไปต่อกับ port 0(จะต่อภายหลัง) อีกขา ต่อกับเส้นสีดำ หรือ ground
+  ![image](https://user-images.githubusercontent.com/80880074/112325630-73513280-8ce6-11eb-9604-7a74728994be.jpeg)
+
   
   • นำ input เส้นสีขาวต่อกับ sensor ไฟ LED จะสว่าง เมื่อ sensor โดนแสงสว่าง ค่าที่อ่านได้เป็น 0 ดังภาพ
+  ![image](https://user-images.githubusercontent.com/80880074/112325942-ae536600-8ce6-11eb-9764-81bd2c67e1c6.jpeg)
+
   
   • ไฟ LED จะดับ เมื่อนำนิ้วไปปิดหน้า sensor ค่าที่อ่านได้เป็น 1 ดังภาพ
+  ![image](https://user-images.githubusercontent.com/80880074/112325822-97147880-8ce6-11eb-9237-761119eec378.jpeg)
+
   
 
 ## การบันทึกผลการทดลอง
