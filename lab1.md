@@ -14,6 +14,8 @@ https://youtu.be/NLIUsWLEpmg
 
 ## วิธีการทำการทดลอง
 1. เขียนโปรแกรมบน microcontroller โดยทำการเสียบ microcontroller เข้าทาง serial port ขอบ USB
+![image](https://user-images.githubusercontent.com/80880074/112322076-2ddf3600-8ce3-11eb-94f0-e606eafb58f0.jpeg)
+
 2. ดูตัวอย่างโปรแกรมที่folder pattani 
   
   • พิมพ์ cd pattani เพื่อไปยังโฟลเดอร์
@@ -42,12 +44,17 @@ https://youtu.be/NLIUsWLEpmg
   • พิมพ์ pio run -t upload
   
   • ในขณะที่ program กำลังรันข้อมูล เพื่อให้ microcontroller รันโปรแกรมใหม่เข้าไป กดปุ่มสีดำเพื่อให้เกิดการโหลด และกดปุ่มสีแดงเพื่อให้เกิดการรีเซ็ท
-  
+  ![image](https://user-images.githubusercontent.com/80880074/112322366-6848d300-8ce3-11eb-9a60-52a808c67c5e.jpeg)
+
   • อัพโหลดเข้าตัว microcontroller เสร็จสิ้น
-  
+  ![image](https://user-images.githubusercontent.com/80880074/112322577-9b8b6200-8ce3-11eb-86df-90a7098adf8a.png)
+
   • สังเกตผลลัพธ์ที่แสดงผ่านคอมพิวเตอร์ พิมพ์ pio device monitor โดย PATTANI แสดงถึงตัวแปร count ที่ถูก impliment ไปเรื่อยๆโดยแสดงผลทุกๆ 1 วินาที
-  
+  ![image](https://user-images.githubusercontent.com/80880074/112322776-c5448900-8ce3-11eb-8897-066238aec856.jpeg)
+
   • กดปุ่มสีแดง เพื่อทำการ reset โปรแกรมโดยโปรแกรมจะหยุดทำงานและเริ่มนับ 1 ใหม่
+  ![Uploading image.jpeg…]()
+
 
 ## การบันทึกผลการทดลอง
   คำสั่ง src/main.cpp แสดงผลลัพธ์ของดปรแกรมส่วน set up & loop
