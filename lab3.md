@@ -13,8 +13,8 @@
 5. หลอดไฟ LED เปล่งแสง
 
 ## ศึกษาข้อมูลเบื้องต้น
-https://youtu.be/6JnhaUILGuw
-https://youtu.be/CCnN1WJsXQY
+  https://youtu.be/6JnhaUILGuw
+  https://youtu.be/CCnN1WJsXQY
 
 ## วิธีการทำการทดลอง
 1. นำ adapter(ที่ต่อกับLED) ต่อเข้ากับ USB
