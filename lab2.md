@@ -29,15 +29,19 @@ https://youtu.be/yBjab0UNuB8
 4. อัพโหลดโปรแกรม 02_Scan-Wifi เข้าไปยัง microcontroller โดยใช้คำสั่ง upload
   
   • พิมพ์ pio run -t upload
+  ![image](https://user-images.githubusercontent.com/80880074/112323357-4bf96600-8ce4-11eb-93c9-95160f5ee132.jpeg)
   
   • ในขณะที่ program กำลังรันข้อมูล เพื่อให้ microcontroller รันโปรแกรมใหม่เข้าไป กดปุ่มสีดำเพื่อให้เกิดการโหลด และกดปุ่มสีแดงเพื่อให้เกิดการรีเซ็ท
-  
+  ![image](https://user-images.githubusercontent.com/80880074/112323497-6af7f800-8ce4-11eb-9f96-75fe3e6b4b47.jpeg)
+
   • อัพโหลดเข้าตัว microcontroller เสร็จสิ้น
   
   • สังเกตผลลัพธ์ที่แสดงผ่านคอมพิวเตอร์ พิมพ์ pio device monitor 
+  ![image](https://user-images.githubusercontent.com/80880074/112323660-94b11f00-8ce4-11eb-8258-5673bf28299a.jpeg)
 
 ## การบันทึกผลการทดลอง
   • หลังการที่หน้าจอแสดงผลลัพธ์ การวนลูปจะเริ่มต้นขึ้น และเริ่มทำการค้นหา wifi ภายในบริเวณและแสดงผลจากการค้นหาดังภาพ
+  ![image](https://user-images.githubusercontent.com/80880074/112323742-a5619500-8ce4-11eb-979b-8191da58c2f6.jpeg)
   
 ## อภิปรายผลการทดลอง
   • pio run -t upload ใช้อัพโหลดโปรแกรม 02_Scan-Wifi เข้าไปยัง microcontroller โดยคำสั่ง pio device monitor ใช้สังเกตผลลัพธ์ที่แสดงผ่านคอมพิวเตอร์ ทำให้สามารถสังเกตชื่อและจำนวนของ wifi ที่เราพบ
