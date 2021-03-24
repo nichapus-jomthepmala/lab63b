@@ -26,13 +26,13 @@ https://www.youtube.com/watch?v=T26DVHePlTs
   
   • โดยโค้ดดังกล่าว ประกอบด้วยข้อมูลดังนี้
   
-      กำหนด ชื่อ และ ตั้งpassword 
+   กำหนด ชื่อ และ ตั้งpassword 
       ![image](https://user-images.githubusercontent.com/80880074/112326409-13a75700-8ce7-11eb-83a9-9a729ad495c7.jpeg)
-      กำหนด IPAdress, gateway, subnet
+    กำหนด IPAdress, gateway, subnet
       ![image](https://user-images.githubusercontent.com/80880074/112326487-26219080-8ce7-11eb-9f5f-e1d06de13d74.jpeg)
-      เตรียม web server
+    เตรียม web server
       ![image](https://user-images.githubusercontent.com/80880074/112326606-3cc7e780-8ce7-11eb-9598-581dfd744091.jpeg)
-      รันคำสั่ง softAP แล้วกำหนด ssiad กับ password
+    รันคำสั่ง softAP แล้วกำหนด ssiad กับ password
       ![image](https://user-images.githubusercontent.com/80880074/112326686-4cdfc700-8ce7-11eb-9c41-5544a5b7a3dc.jpeg)
     
 4. อัพโหลดโปรแกรม 06_Wifi-AP-Web-Server เข้าไปยัง microcontroller โดยใช้คำสั่ง upload
