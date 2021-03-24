@@ -76,6 +76,7 @@ https://www.youtube.com/watch?v=VX-QNQcO-b4
   • พิมพ์ pio run -t upload
   
   • ทำการเสียบ microcontroller เข้าทาง serial port ของ USB
+  ![image](https://user-images.githubusercontent.com/80880074/112326170-e0fd5e80-8ce6-11eb-931c-a30befc0ab21.jpeg)
   
   • ในขณะที่ program กำลังรันข้อมูล เพื่อให้ microcontroller รันโปรแกรมใหม่เข้าไป กดปุ่มสีดำเพื่อให้เกิดการโหลด และกดปุ่มสีแดงเพื่อให้เกิดการรีเซ็ท
     
